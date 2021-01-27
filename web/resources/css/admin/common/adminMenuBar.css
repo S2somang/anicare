@@ -1,0 +1,223 @@
+
+/* 메뉴바 */
+#wrap {
+	width: 100%;
+    height: auto;
+}
+   
+/* menu */
+header{
+    width: 300px;
+    /* background: pink; */
+    box-shadow: 0 1px 7px rgb(0 0 0 / 20%);
+    height: 100vh;
+    float: left;
+    overflow: auto;
+    padding: 0 20px;
+}
+header h1{width: 90%;text-align: center;font-size: 1.6em;height: 140px;padding: 50px 0 0;border-bottom: 1px solid #c4c4c4;margin: 0 auto; }
+header h1 img{
+    width: 90%;
+    display: block;
+    margin: 0 auto;
+    cursor:pointer;
+}
+
+.sideMenu {
+    font-size: 1.7em;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 30px;
+    line-height: 60px;
+}
+.sideMenu:last-child{
+    margin-bottom: 50px;
+}
+
+
+.sideMenu li.menu:first-child{}
+.sideMenu li.menu:first-child a{
+color: #929292;
+margin-left: 10px;
+ width: 70%;
+    line-height: 44px;  
+    display: inline-block;
+}
+.sideMenu li.menu:first-child a:hover{
+    color:#3c43f0;
+}
+.sideMenu li.menu div a{
+    color: #929292;
+    display: inline-block;
+    width: 70%;
+    line-height: 44px;
+    margin-left: 10px;
+}
+.color{color:#3c43f0 !important;}
+.borderB{ border-bottom: 3px solid #3c43f0; }
+.sideMenu li.menu div:hover a{color:#3c43f0; border-bottom: 3px solid #3c43f0;}
+.sideMenu li.menu span{  
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    vertical-align: -11px;
+    position: static;
+}
+
+.sideMenu li.menu:nth-child(1) span {
+    background: url(../../../images/admin/managerIcon.png)-86px -42.6px no-repeat;
+    background-size: 320px;
+}
+.sideMenu li.menu:nth-child(2) span {
+    background: url(../../../images/admin/managerIcon.png)0px -2px no-repeat;
+    background-size: 320px;
+}
+.sideMenu li.menu:nth-child(3) span {
+    background: url(../../../images/admin/managerIcon.png)-125px -42px no-repeat;
+    background-size: 320px;
+}
+.sideMenu li.menu:nth-child(4) span {
+    background: url(../../../images/admin/managerIcon.png)-34px -2px no-repeat;
+    background-size: 320px;
+}
+.sideMenu li.menu:nth-child(5) span {
+    background: url(../../../images/admin/managerIcon.png)-108px -2px no-repeat;
+    background-size: 320px;
+}
+.sideMenu li.menu:nth-child(6) span {
+    background: url(../../../images/admin/managerIcon.png)-70px -2px no-repeat;
+    background-size: 320px;
+}
+.sideMenu li.menu:nth-child(7) span {
+    background: url(../../../images/admin/managerIcon.png)-48px -41px no-repeat;
+    background-size: 320px;
+}
+
+
+
+.sideMenu li.one:hover span {
+    background: url(../../../images/admin/managerIcon.png) -86px -118px no-repeat;
+    background-size: 320px;
+} 
+.sideMenu li.menu:nth-child(2) div:hover span {
+    background: url(../../../images/admin/managerIcon.png)0px -81px no-repeat;
+    background-size: 320px;
+}
+.sideMenu li.menu:nth-child(3)  div:hover span{
+    background: url(../../../images/admin/managerIcon.png)-125px -118px no-repeat;
+    background-size: 320px;
+}
+.sideMenu li.menu:nth-child(4) div:hover span {
+    background: url(../../../images/admin/managerIcon.png)-34px -81px no-repeat;
+    background-size: 320px;
+}
+.sideMenu li.menu:nth-child(5) div:hover span {
+    background: url(../../../images/admin/managerIcon.png)-108px -81px no-repeat;
+    background-size: 320px;
+}
+.sideMenu li.menu:nth-child(6) div:hover span {
+    background: url(../../../images/admin/managerIcon.png)-70px -81px no-repeat;
+    background-size: 320px;
+}
+.sideMenu li.menu:nth-child(7) div:hover span {
+    background: url(../../../images/admin/managerIcon.png)-48px -117px no-repeat;
+    background-size: 320px;
+}
+
+
+
+.sideMenu ul.side{
+    line-height: 30px;
+    font-size: 0.8em;
+    margin-left: 15px;}
+.sideMenu ul.hideShow{
+    display: none;
+   
+}
+
+.sideMenu ul.hideShow li{
+    margin-left: 43px;
+}
+.sideMenu ul.hideShow a{
+    color: #afafaf;
+    font-size: 1.2em;
+    line-height: 40px;
+}
+.sideMenu ul.hideShow a::before{content: '- ';}
+.sideMenu ul.hideShow li:hover a{color: #5e5e5e;}
+
+
+/* contents */
+.contents{width: calc(100% - 340px);float: left; height:auto; overfloaw:hidden;}
+.topmenu{
+    height: 70px;
+    background-image: linear-gradient(45deg, #3c43f0, #2d2679);
+    line-height: 70px;
+}
+.topmenu div{
+    position: absolute;
+    right: 50px;
+    font-size: 1.4em;
+    color: #fff;
+    z-index: 1;
+}
+.topmenu img{
+    float: left;
+    margin-right: 10px;
+    width: 50px;
+    height: 50px;
+    background: #fff;
+    border-radius: 50%;
+    margin-top: 9px;
+}
+.topmenu span.name{
+    float: left;
+}
+.topmenu span{
+    float: left;
+}
+.topmenu a{color: #fff;margin-left: 16px;padding: 3px 10px;}
+
+.hideMenu{
+    width: 170px;
+    background: #fff;
+    z-index: 9;
+    position: absolute;
+    top: 70px;
+    right: 20px;
+    border-radius: 0 0 17px 18px;
+    box-shadow: 0px 1px 3px #00000082;
+    padding: 0px 24px;
+    display: none;
+}
+.hideShowMenu{
+    display: block;
+}
+.hideMenu li{
+    color: #3c43f0;
+    padding: 0 20px;
+    font-size: 1.2em;
+}
+.hideMenu li:hover a{color:#3c43f0; }
+.hideMenu li:nth-child(2){border-top:1px solid #c4c4c4;}
+.hideMenu a{
+    color: #5e5e5e;
+    display: block;
+     width: 100%;
+}
+.hideMenu li.bar{border-top: 1px solid #c4c4c4;}
+
+
+
+/* article 3 content */
+
+.conWrap {
+    width: 90%;
+    /* 임의로 지정해두었습니다. */
+    height: 700px;
+    background: #fff;
+    box-shadow: 0 0 9px #0000003d;
+    margin: 0 auto;
+    margin-top: 30px;
+    border-radius: 18px;
+}

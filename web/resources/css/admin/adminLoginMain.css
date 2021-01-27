@@ -1,0 +1,207 @@
+
+.wrap{width: 100vw;}
+
+.bgfront{
+    position:absolute;
+    top: 110px;
+    width: 82vw;
+    background:#fff;
+    z-index: 9999;
+    left: 9vw;
+    /* height: 70vh; */
+    box-shadow: 0 0 6px #00000033;
+    border-radius: 0.6rem;
+    padding: 70px 0;
+}
+.bgfront h1{
+    width: 30vw;
+    /* background: #dddf; */
+    overflow: hidden;
+    margin: 0 auto;
+}
+.bgfront h1 img{
+    /* width: 50%; */
+    display: block;
+    margin: 0 auto;
+}
+.bgfront h1 img:nth-child(1){
+    width: 40%;
+}
+.bgfront h1 img:nth-child(2){
+    width: 80%;
+}
+
+.bgfront h2{
+    text-align: center;
+    width: 20%;
+    background: #3c43f0;
+    margin: 0 auto;
+    margin-top: 20px;
+    height: 48px;
+    line-height: 48px;
+    font-size: 1.6em;
+    color: #fff;
+    border-radius: 7px;
+}
+
+.bgfront ul{
+    clear: both;
+    width: 30%;
+    margin: 0 auto;
+    /* background: #ddd; */
+    margin-top: 70px;
+    overflow: hidden;
+    position: relative;
+}
+.bgfront ul li{
+    margin: 10px 0;
+    /* float: left; */
+    width: 97%;
+}
+.bgfront ul li input{
+    width: 49%;
+    height: 38px;
+    border: 1px solid #c4c4c4;
+    border-radius: 4px;
+    padding: 0 16px;
+    color: #5e5e5e;
+    font-size: 1.2em;
+}
+.bgfront ul li button{}
+.bgfront ul li a{
+    color: #929292;
+}
+.bgfront ul li a.sub:after{
+  content: '/';
+  padding-left: 28px;
+}
+.bgfront ul li label{
+    display: block;
+    width: 1.8em;
+    /* background: pink; */
+    float: left;
+    height: 38px;
+    font-size: 1.1rem;
+    padding: 0 1em 0 0.4em;
+    color: #5e5e5e;
+    font-weight: 600;
+    line-height: 38px;
+}
+.bgfront ul li:nth-child(3){
+    width: 25%;
+    position: absolute;
+    top: 0;
+    right: 0px;
+}
+.bgfront ul li .loginBtn{
+    border-radius: 4px;
+    width: 100%;
+    background: #3c43f0;
+    /* background-image: linear-gradient(45deg, #757ce8 0%, #565ff1 59%, #3c43f0 100%); */
+    height: 90px;
+    font-size: 1.4em;
+    color: #fff;
+    font-weight: 600;
+    transition: 0.8s;
+}
+
+.bgfront ul li .loginBtn:hover{/* background-position: right center; */background-image: linear-gradient(45deg, #757ce8 0%, #565ff1 59%, #3c43f0 100%);box-shadow: 0 0 3px #0000009e;}
+
+.bgfront ul.joinLink{margin-top: 2px;width: 31%;/* background: #ddd; */}
+.bgfront ul.joinLink li{
+    width: 32.3%;
+    float: left;
+    /* font-size: 1.3em; */
+    text-align: center;
+}
+.bgfront ul.joinLink li a{
+    font-size: 1.4em;
+}
+
+
+
+
+
+
+
+/* background */
+.back {
+  position:relative;
+  text-align:center;
+  background: linear-gradient(70deg, rgba(45,38,121,1) 0%, rgba(58,63,222,1) 100%);
+  color:white;
+}
+
+
+.inner-back {
+  height:65vh;
+  width:100%;
+  margin: 0;
+  padding: 0;
+}
+
+.flex { /*Flexbox for containers*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.waves {
+  position:relative;
+  width: 100%;
+  /* height: 15vh; */
+  margin-bottom:-7px; /*Fix for safari gap*/
+  min-height:100px;
+  max-height:150px;
+}
+
+.content {
+  position:relative;
+  height:20vh;
+  text-align:center;
+  background-color: white;
+}
+
+/* Animation */
+
+.parallax > use {
+  animation: move-forever 25s cubic-bezier(.55,.5,.45,.5)     infinite;
+}
+.parallax > use:nth-child(1) {
+  animation-delay: -2s;
+  animation-duration: 7s;
+}
+.parallax > use:nth-child(2) {
+  animation-delay: -3s;
+  animation-duration: 10s;
+}
+.parallax > use:nth-child(3) {
+  animation-delay: -4s;
+  animation-duration: 13s;
+}
+.parallax > use:nth-child(4) {
+  animation-delay: -5s;
+  animation-duration: 20s;
+}
+@keyframes move-forever {
+  0% {
+   transform: translate3d(-90px,0,0);
+  }
+  100% { 
+    transform: translate3d(85px,0,0);
+  }
+}
+/*Shrinking for mobile*/
+@media (max-width: 768px) {
+  .waves {
+    height:40px;
+    min-height:40px;
+  }
+  .content {
+    height:30vh;
+  }
+  h1 {
+    font-size:24px;
+  }
+}

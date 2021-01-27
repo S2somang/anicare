@@ -1,0 +1,215 @@
+
+
+/* title banner */
+.title{width: 1280px; margin:0 auto; position: relative;}
+.banner{
+    position: relative;
+    height: 500px;
+    background: #e0e0e0;
+    overflow: hidden;
+}
+.banner li{background: #e0e0e0;}
+.banner li img{width: 100%;}
+
+.titlePager {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    overflow: hidden;
+    width: 900px;
+}
+.titlePager li{width: 20%;float: left;line-height: 95px;background: #fff;height: 95px;font-size: 22px;text-align: center;border: 1px solid #d0d0d0;box-sizing: border-box;border-left: none;}
+.titlePager li.borderLeft{border-left:1px solid #d0d0d0;}
+.titlePager a{
+    display: block;
+    color: #5e5e5e;
+}
+.titlePager a:hover{
+    background: rgb(60 67 240 / 0.3);
+    color: #3c43f0;
+    font-weight: 600;
+}
+
+
+
+.arrow{
+        color: #292929;
+        position: absolute;
+        top: 47%;
+        width: 100%;
+}
+.arrow .prev{position: absolute;left: 4%;width: 60px;height: 60px;background: #ffffff5c;border-radius: 50%;font-size: 40px;text-align: center;}
+.arrow .next{
+    position: absolute;
+    right: 4%;
+    width: 60px;
+    height: 60px;
+    background: #ffffff5c;
+    border-radius: 50%;
+    font-size: 40px;
+    display: block;
+    text-align: center;
+}
+.arrow:hover{
+    color: #3b44f0;
+}
+
+
+
+
+
+/* contests*/
+.contents article{width: 1280px;margin: 0 auto;/* margin-top: 50px; */position: relative;overflow: hidden;}
+
+/* */
+h3.contH3{
+    font-size: 48px;
+    color: #313131;
+}
+article>p{
+    color: #6a6a6a;
+    font-size: 18px;
+    margin: 10px 0 0 0;
+}
+
+/* artile first mySupport */ 
+.mySupport{
+    margin-top: 80px;
+    overflow: hidden;
+    /* border-bottom: 1px solid #a7a7a7; */
+}
+
+
+
+.mySupport ul{overflow: hidden;padding-bottom: 60px;border-bottom: 2px solid #c4c4c4;}
+
+.mySupport li{float: left;width: 33.3%;position: relative;}
+
+.mySupport .hoo_icon{
+    /* width: 67px; */
+    background: #ffa217;
+    padding: 8px 22px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    box-shadow: 0px 2px 2px #25252585;
+    border-radius: 0px 2px 2px 2px;
+}
+
+.mySupport .conUl p{
+    font-size: 25px;
+    margin: 16px 0 10px;
+    color: #453f3f;
+    font-weight: 600;
+}
+.mySupport .hoo_con{
+    font-size: 16px;
+    box-sizing: border-box;
+    display: block;
+    color: #8c8c8c;
+    line-height: 30px;
+    width: 95%;
+}
+
+
+/*  artile second needSupport */
+.needSupport {}
+.conUl .w65{width: 65%;margin: 0px 20px 0 0;}
+.conUl .w35{width: 33%;margin: 0 0 15px 0;height: 250px;overflow: hidden;}
+
+.conUl{overflow: hidden;/* background:#ddd; */}
+.conUl li{float: left;position: relative;/* margin:10px 0 10px 0; */}
+.today_icon{
+    background: #ffa217;
+    padding: 8px 22px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    box-shadow: 0px 2px 2px #25252585;
+    border-radius: 0px 2px 2px 2px;
+}
+.conUl img{width: 100%;}
+
+/*  artile supportGuide */
+.w30{width: 33.3%;}
+.w50{width: 49.999%;}
+.spGuideUl{overflow: hidden; box-sizing: border-box; }
+.spGuideUl li{
+    float: left;
+    border: 1px solid #efefef;
+    box-sizing: border-box;
+    padding: 30px 0px;
+    text-align: center;
+    border-right: none;
+    transition:0.5s;
+}
+.spGuideUl li p{
+    font-size: 30px;
+    color: #5e5e5e;
+    margin-top: 30px;
+}
+.spGuideUl li a{
+    width: 50%;
+    height: 60px;
+    display: block;
+    border-radius: 4px;
+    line-height: 60px;
+    color: #fff;
+    font-size: 20px;
+    margin: 30px auto;
+    background: #bbbbbb;
+}
+.spGuideUl li a:hover{
+    background: #2c35e8;
+}
+
+.spGuideUl .hoo_con{
+    font-size: 16px;
+    box-sizing: border-box;
+    display: block;
+    color: #8c8c8c;
+    line-height: 30px;
+    width: 100%;
+    margin: 20px 0;
+}
+.spGuideUl .sgLeft{
+    text-align: left;
+    padding: 40px 60px 60px;
+}
+.spGuideUl .sgLeft a{
+    margin: 0;
+    text-align: center;
+} 
+
+.spGuideUl li:hover{
+    z-index: 992;
+    box-shadow: 0px 1px 16px #8a8a8a3d;
+    border:1px solid #fff;
+    box-sizing: border-box;
+}
+.spGuideUl li:hover a{ background: #2c35e8;}
+
+.spGuideUl .bRight{border-right:1px solid #ddd ;}
+
+
+/*  artile Account */
+.contents .Account{margin-bottom: 140px;}
+.Account h4{
+    height: 100px;
+    font-size: 30px;
+    color: #5e5e5e;
+    /* background: #ddd; */
+    line-height: 100px;
+    text-align: center;
+    border: 1px solid #c1c1c1;
+    
+}
+.Account p{
+    line-height: 35px;
+}

@@ -1,0 +1,65 @@
+@charset "UTF-8";
+
+#title {
+	/* background-color:magenta; */
+	height:36px;
+	margin-top:30px;
+	margin-left:17%;
+	margin-right:17%;
+	border:solid #6a6a6a;
+	border-width:0px 0px 5px
+
+}
+#title>h2 {
+	width:50px;
+	font-size:24px;
+	border:solid #3742fa;
+	border-width:0px 0px 5px
+}
+
+#contents {
+	font-color:#453f3fl;
+	/* background-color:gold; */
+	margin-top:30px;
+	margin-left:17%;
+	margin-right:17%;
+	margin-bottom:30%;
+}
+article, aside {
+	float:left;
+}
+article>h3 {
+	color:#453f3fl;
+	font-weight:bold;
+	font-size:24px;		
+}
+#greetings {
+	color:#453f3fl;	
+	/* background-color:coral; */
+	width:80%;
+	height:auto
+}
+#content {
+	color:#453f3fl;
+	font-size:18px;		
+}
+	#bossSign {
+	text-align:right;
+	font-size:30px;
+}
+
+aside {
+	/* background-color:khaki; */
+	width:16%;
+	height:400px;
+	margin-left:4%;
+}
+aside>ul>li {
+	height:40px;
+	font-size:20px;
+	color:#878787;
+}
+img {
+	width:inherit;
+	max-width:100%;
+}
